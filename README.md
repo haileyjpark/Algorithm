@@ -1,1 +1,3 @@
 # Algorithm_Study
+
+STUDYING ALGORITHM EVERYDAY
