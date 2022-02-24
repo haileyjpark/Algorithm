@@ -22,3 +22,18 @@ n	return
 3은 양의 정수의 제곱이 아니므로, -1을 리턴합니다.
 
 '''
+
+def solution(n):
+    return ((n**0.5)+1)**2 if (n**0.5) % 1 == 0 else -1
+
+
+# 다른 사람의 풀이
+from math import sqrt
+
+def solution2(n):
+    return int(sqrt(n) + 1) ** 2 if sqrt(n) % 1 == 0 else -1
+
+# 다른 사람의 풀이2
+def nextSqure(n):
+    sqrt = pow(n, 0.5)
+    return pow(sqrt + 1, 2) if sqrt == int(sqrt) else -1
