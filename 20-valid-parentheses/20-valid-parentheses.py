@@ -18,5 +18,3 @@ class Solution:
         if stack:
             return False
         return True
-
-        
