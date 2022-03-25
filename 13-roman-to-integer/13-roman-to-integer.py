@@ -11,6 +11,7 @@ class Solution:
         return answer + roman[s[-1]]
     
 # 다른 사람의 풀이
+# Time: 73 ms (44.07%), Space: 14 MB (37.80%) - LeetHub
 def romanToInt2(self, s: str) -> int:
 	res, prev = 0, 0
 	dict = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
