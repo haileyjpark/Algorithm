@@ -3,4 +3,5 @@ class Solution:
         digits = list(map(str, digits))
         nums = int(''.join(digits))
         nums += 1
-        return list(str(nums))
+        nums = list(str(nums))
+        return list(map(int, nums))
